@@ -25,28 +25,6 @@ pizzas.addEventListener("change",(e)=>{
         t.value = total;
     }
 })
-
-// function change(e){
-
-// }
-// small.addEventListener("",()=>{
-//     dropdown.value = 10;
-//     total +=parseInt(dropdown.value);
-//     t.value = total;
-// })
-
-// medium.addEventListener("toggle",()=>{
-//     dropdown.value = 10;
-//     total +=parseInt(dropdown.value);
-//     t.value = total;
-// })
-
-// large.addEventListener("toggle",()=>{
-//     dropdown.value = 10;
-//     total +=parseInt(dropdown.value);
-//     t.value = total;
-// })
-
 const pan = document.getElementById("pb");
 const button1 = document.getElementById("count");
 
