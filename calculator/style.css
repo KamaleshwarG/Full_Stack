@@ -1,0 +1,46 @@
+*{
+    background-color:blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    color: tomato;
+}
+h2{
+    text-align:center;
+    text-decoration:line-through;
+}
+.container{
+    box-shadow: 10px 10px 10px 10px;
+    margin:158px auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap:10px;
+    width:250px;
+    height:280px;
+    background-color:burlywood;
+    padding:10px;
+    border:6px solid;
+}
+input{
+    grid-column:1/5;
+    background-color: aliceblue;
+    /* border:10px ridge tomato; */
+}
+button:hover,sup:hover{
+    background-color: rgb(193, 179, 245);
+}
+button{
+    background-color:lightgoldenrodyellow;
+}
+.so{
+    background-color:orange;
+}
+::placeholder{
+    color:tomato;    
+}
+#square,#cube{
+    font-size:large;
+}
+input,button{
+    box-shadow: 1px 1px 1px 1px;
+    padding:10px;
+}

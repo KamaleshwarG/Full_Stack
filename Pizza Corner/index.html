@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="first_block">
+        <!-- <h1>Shop</h1> -->
+        <h1>Pizza Corner</h1>
+        <div class="second_block">
+            <span>Pizza Size : </span>
+            <select name="pizzas" id="pizzas">
+                <option value="Small" id="small">Small</option>
+                <option value="Medium" id="medium">Medium</option>
+                <option value="Large" id="large">Large</option>
+            </select>
+            <input type="text" id="dropdown" placeholder="$0">
+        </div>
+        <div class="third_block">
+            <p>For deep pan $<button id="count">20</button><input type="text" id="pb" placeholder="$0"></p>
+        </div>
+        <div class="fourth_block">
+            <p>Extra toppings</p>
+            <h5>Mushrooms:$<button id="ex1">15</button><input type="text" id="mushrooms" placeholder="$0"></h5>
+            <h5>Olives:$<button id="ex2">10</button><input type="text" id="olives" placeholder="$0"></h5>
+            <h5>Fingernail:$<button id="ex3">30</button><input type="text" id="fingernail" placeholder="$0"></h5>
+            <h5>Spicybeef:$<button id="ex4">20</button><input type="text" id="spicybeef" placeholder="$0"></h5>
+        </div>
+        <div class="fifth_block">
+            <p>For home delivery$<button id="ex5">25</button><input type="text" id="hd" placeholder="$0"></p>
+        </div>
+        <div class="sixth_block">
+            <p>Total : <input type="text" id="Total" placeholder="$0"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

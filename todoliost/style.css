@@ -1,0 +1,27 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:azure;
+}
+h1{
+    text-align: center;
+}
+.container{
+    width:400px;
+    height:300px;
+    margin:150px auto;
+    padding:10px;
+}
+input{
+    padding:10px;
+    border:10px  tomato;
+}
+button{
+    padding:10px;
+    border:10px  black;
+}
+button:hover{
+    background-color: lightgreen;
+}
+input:hover{
+    background-color:bisque;
+}
