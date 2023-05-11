@@ -19,16 +19,3 @@ function generate_input(){
     }
     input_container.innerHTML = inp;
 }
-// function generate_input(){
-//     if(cities.value=="chennai"){
-//         var inp = ""
-//         for(let i = 1;i <= 15;i++){
-//             inp +=`<input id= 'number${i}' placeholder = 'enter item ${i}'><br>`
-
-//         }
-//         input_container.innerHTML = inp;   
-//         console.log(inp)     
-//     }else if(cities.value =="coimbatore"){
-        
-//     }
-// }
