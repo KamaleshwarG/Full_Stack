@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="one">This is paragraph 1</p>
+    <p id="two">This is paragraph 2</p>
+    <p id="three">This is paragraph 2</p>
+    <p id="four">This is paragraph 4</p>
+    <script>
+        const paragraphs = document.querySelectorAll("p");
+        
+        let para1 = {color:"green",background:"lightgreen",fontFamily:"monospace",fontSize:"20px",border:"10px solid grey"};
+        Object.assign(paragraphs[0].style,para1);
+
+        let para2 = {color:"red",background:"lightblue",fontFamily:"Courier New",fontSize:"10px",border:"10px ridge coral"};
+        Object.assign(paragraphs[1].style,para2)
+        
+        let para3 = {color:"yellow",background:"yellowgreen",fontFamily:"Courier",fontSize:"30px",border:"10px groove tomato"};
+        Object.assign(paragraphs[2].style,para3)
+
+        let para4 = {color:"violet",background:"grey",fontFamily:"Times New Roman",fontSize:"30px",border:"10px solid tomato"};
+        Object.assign(paragraphs[3].style,para4)
+
+    </script>
+</body>
+</html>

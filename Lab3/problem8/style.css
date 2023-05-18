@@ -1,0 +1,44 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.datas{
+    display: flex;  
+    border: 6px ridge black;
+    flex-wrap:wrap;
+    padding: 10px;
+    box-shadow: 4px 5px 6px 7px;
+}
+button{
+    padding:5px;
+    margin-left: 30px;
+}
+h1{
+    text-align: center;
+}
+input{
+    background-color: transparent;
+    border:transparent;
+    border-bottom: 2px solid black;
+}
+#products{
+    display: flex;
+    flex-wrap:wrap;
+    padding:10px;   
+    gap:30px;
+    background-color:azure;
+}
+#products div{
+    padding:30px;
+    box-shadow:6px 6px 6px 6px;
+}
+#products div button{
+    padding:10px;
+    box-shadow: 3px 3px 3px 3px;
+    margin-left:38px;
+    filter:sepia(1);
+}
